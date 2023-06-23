@@ -1,0 +1,63 @@
+/* Navigation section */
+
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    padding: 0px 10px;
+    font-size: 0.78rem;
+    padding-bottom: 8px;
+    /* margin: 3px; */
+}
+/* Home Section */
+#home{
+    height: 375px;
+    padding: 3px 8px;
+}
+#home::before{
+    height: 485px;
+    
+}
+#home p{
+    font-size: 11px;
+}
+
+/* Services  section */
+#services{
+    flex-direction: column;
+}
+#services .box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+/* Client Section */
+#client{
+    flex-wrap: wrap;
+}
+#client img{
+    height: 58px;
+    width: 52px;
+    /* padding: 2px 6px; */
+}
+
+
+/* Contact Section */
+
+#contact-box form{
+    width: 80%;
+}
+
+/* Footer section */
+
+
+/* Uility classes */
+
+.h-primary{
+    font-size: 30px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 10px;
+}
